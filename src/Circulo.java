@@ -1,5 +1,6 @@
-public class App {
-    public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+public class Circulo implements Forma {
+    @Override
+    public void dibujar() {
+        System.out.println("Círculo dibujado");
     }
 }
